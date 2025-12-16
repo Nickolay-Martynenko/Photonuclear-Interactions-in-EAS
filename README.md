@@ -40,6 +40,8 @@ To work with the datasets, you will need **[Python3](https://www.python.org/down
 
 ## How to Get Started
 
+0. Install Python3 and `pip` if you haven't installed them yet. Consider installing [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) to easily manage software dependencies
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Nickolay-Martynenko/Photonuclear-Interactions-in-EAS.git
