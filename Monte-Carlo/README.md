@@ -12,8 +12,8 @@ The dataset comprises three main Parquet files, each focusing on different types
 <br>
 
 ## Units
-- Energy units: electronvolts (eV); values are stored as Baes-10 logarithms for numerical stability.
-- Slant depth: grams per square centimeter (g/cm²).
+- Energy units: electronvolts (eV); values are stored as Baes-10 logarithms for numerical stability
+- Slant depth: grams per square centimeter (g/cm²)
 - Particle IDs: consistent with the particle identification scheme used in **[CORSIKA](https://www.iap.kit.edu/corsika/downloads/CORSIKA_GUIDE7.8010.pdf)**
 <br>
 
