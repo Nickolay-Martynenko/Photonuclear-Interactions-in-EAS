@@ -16,7 +16,7 @@ The repository contains the following main components:
 
 ### 1. `Monte-Carlo/` — Monte Carlo (MC) Datasets
 
-These datasets were produced by the author using **[CONEX v7.80](https://gitlab.iap.kit.edu/AirShowerPhysics/cxroot)** for extensive air shower (EAS) simulations.
+These datasets were produced by the author using **[CONEX v7.80](https://gitlab.iap.kit.edu/AirShowerPhysics/cxroot)** for extensive air shower simulations.
 
 - **`HadCascade.parquet`**  
   Dataset for the hadronic cascade development.  
@@ -32,7 +32,7 @@ These datasets were produced by the author using **[CONEX v7.80](https://gitla
 
 ### 2. `utils/demo.py` — Python Demo Script
 
-A demonstration script for reading and working with the MC datasets.
+A demonstration script for reading the MC datasets.
 
 ## Requirements
 
