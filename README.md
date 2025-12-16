@@ -41,7 +41,9 @@ The datasets were created and tested using Python&nbsp;3.12.7 and the Awkward&nb
 
 ## How to Get Started
 
-0. Install Git LFS and Python&nbsp;3.12.7 if you haven't installed them yet. Consider installing Python via [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) to easily manage software dependencies
+0. Install Git LFS and Python&nbsp;3.12.7 if you haven't installed them yet. 
+
+   Consider installing Python via [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) to easily manage software dependencies
 
 1. Clone the repository:
    ```bash
