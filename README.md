@@ -36,7 +36,7 @@ A demonstration script for reading and working with the MC datasets.
 
 ## Requirements
 
-To work with the datasets, you will need **[Python&nbsp;3](https://www.python.org/downloads/)** the **[Awkward&nbsp;Array](https://awkward-array.org/doc/main/)** Python library.
+To work with the datasets, you will need **[Git&nbsp;Large&nbsp;File&nbsp;Storage](https://git-lfs.com)**, **[Python&nbsp;3](https://www.python.org/downloads/)**, and the **[Awkward&nbsp;Array](https://awkward-array.org/doc/main/)** Python library.
 The datasets were created using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nbsp;2.8.4, and it is therefore recommended that these versions be used for reproducibility.
 
 ## How to Get Started
@@ -45,7 +45,7 @@ The datasets were created using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nb
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Nickolay-Martynenko/Photonuclear-Interactions-in-EAS.git
+   git lfs clone https://github.com/Nickolay-Martynenko/Photonuclear-Interactions-in-EAS.git
    ```
 2. Install the required dependency:
    ```bash
