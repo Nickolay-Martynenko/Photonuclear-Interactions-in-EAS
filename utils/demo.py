@@ -5,3 +5,6 @@ print(HadCascade.type)
 
 ElmCascade = from_parquet("./Monte-Carlo/ElmCascade.parquet")
 print(ElmCascade.type)
+
+ElmCascade = from_parquet("./Monte-Carlo/MixCascade.parquet")
+print(ElmCascade.type)
