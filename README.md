@@ -53,6 +53,7 @@ The datasets were created using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nb
    ```
 3. Run the demo script to ensure everything is working correctly:
    ```bash
+   cd Photonuclear-Interactions-in-EAS
    python3 utils/demo.py
    ```  
 
