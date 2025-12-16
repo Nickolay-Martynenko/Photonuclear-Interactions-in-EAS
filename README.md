@@ -1,4 +1,4 @@
-# Readdressing the Contribution of Photonuclear Reactions to the Muon Content of Extensive Air Showers: A Heuristic Approach
+# Readdressing the contribution of photonuclear reactions to the muon content of extensive air showers: a heuristic approach
 
 **Nickolay S. Martynenko**<sup>1, 2, *</sup>
 
