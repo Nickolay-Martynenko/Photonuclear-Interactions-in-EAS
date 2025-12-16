@@ -36,11 +36,12 @@ A demonstration script for reading and working with the MC datasets.
 
 ## Requirements
 
-To work with the datasets, you will need **[Python3](https://www.python.org/downloads/)** the **[Awkward Array](https://awkward-array.org/doc/main/)** Python library.
+To work with the datasets, you will need **[Python&nbsp;3](https://www.python.org/downloads/)** the **[Awkward&nbsp;Array](https://awkward-array.org/doc/main/)** Python library.
+The datasets were created using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nbsp;2.8.4, and it is therefore recommended that these versions be used for reproducibility.
 
 ## How to Get Started
 
-0. Install Python3 and `pip` if you haven't installed them yet. Consider installing [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) to easily manage software dependencies
+0. Install Python&nbsp;3.12.7 if you haven't installed it yet. Consider installing via [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) to easily manage software dependencies
 
 1. Clone the repository:
    ```bash
@@ -48,11 +49,11 @@ To work with the datasets, you will need **[Python3](https://www.python.org/down
    ```
 2. Install the required dependency:
    ```bash
-   pip install awkward
+   pip install awkward==2.8.4
    ```
 3. Run the demo script to ensure everything is working correctly:
    ```bash
-   python utils/demo.py
+   python3 utils/demo.py
    ```  
 
 
