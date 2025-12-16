@@ -37,7 +37,7 @@ A demonstration script for reading and working with the MC datasets.
 ## Requirements
 
 To work with the datasets, you will need **[Git&nbsp;Large&nbsp;File&nbsp;Storage](https://git-lfs.com)**, **[Python&nbsp;3](https://www.python.org/downloads/)**, and the **[Awkward&nbsp;Array](https://awkward-array.org/doc/main/)** Python library.
-The datasets were created using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nbsp;2.8.4, and it is therefore recommended that these versions be used for reproducibility.
+The datasets were created and tested using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nbsp;2.8.4. To ensure reproducibility, it is recommended to use exactly these versions. 
 
 ## How to Get Started
 
@@ -57,7 +57,7 @@ The datasets were created using Python&nbsp;3.12.7 and the Awkward&nbsp;Array&nb
    git lfs pull
    python3 utils/demo.py
    ```
-   The output should be:
+   Note that the total size of .parquet files is approximately 683 MB, so `git lfs pull` may take a while. The output should be:
    ```bash
    73728 * {Fragment: string, Shower_Id: uint32, Shower_Log10Energy: float32, Shower_NumLeadingInteractions: uint8, Shower_NumSecondaryParticles: uint16, LeadingInteractions: var * {ParticleId: uint16, Log10Energy: float32, SlantDepth: float32, NumSecondaryParticles: uint16}, SecondaryParticles: var * {LeadingInteractionId: uint8, ParticleId: uint16, Log10Energy: float32}}
    19456 * {Fragment: string, Shower_Id: uint32, Shower_Log10Energy: float32, PhotonuclearReaction_Log10Energy_BinEdges: 49 * float32, MuonSlantDepth: 201 * float32, MuonNumber: 48 * 201 * float32}
