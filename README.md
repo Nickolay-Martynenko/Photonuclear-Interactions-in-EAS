@@ -60,7 +60,7 @@ The datasets were created and tested using Python&nbsp;3.12.7 and the Awkward&nb
    python3 utils/demo.py
    ```
    Note that the total size of .parquet files is approximately 683 MB, so `git lfs pull` may take a while. The output should be:
-   ```bash
+   ```
    73728 * {Fragment: string, Shower_Id: uint32, Shower_Log10Energy: float32, Shower_NumLeadingInteractions: uint8, Shower_NumSecondaryParticles: uint16, LeadingInteractions: var * {ParticleId: uint16, Log10Energy: float32, SlantDepth: float32, NumSecondaryParticles: uint16}, SecondaryParticles: var * {LeadingInteractionId: uint8, ParticleId: uint16, Log10Energy: float32}}
    19456 * {Fragment: string, Shower_Id: uint32, Shower_Log10Energy: float32, PhotonuclearReaction_Log10Energy_BinEdges: 49 * float32, MuonSlantDepth: 201 * float32, MuonNumber: 48 * 201 * float32}
    239616 * {Shower_Id: uint32, Shower_Log10Energy: float32, Shower_PrimaryParticle: string, PNRXsection_AsymptRatioModified2EGS4: float32, PNRXsection_Log10EnergyTransitionEGS42Modified: float32, MuonSlantDepth: 201 * float32, MuonNumber: 201 * float32}
