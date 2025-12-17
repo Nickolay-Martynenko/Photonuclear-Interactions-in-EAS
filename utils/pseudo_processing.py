@@ -14,7 +14,7 @@ def HadCascadeFittingPipeline(HadCascade)->bool:
                     HowMany=1,
                     Log10Energy=Particle.Log10Energy,
                     SlantDepth=Event.LeadingInteractions[Particle.LeadingInteractionId].SlantDepth,
-                    to=EventContent,
+                    To=EventContent,
                 )
             elif Particle.ParticleId == 7: # neutral pion
                 NumPhotons += 2
@@ -22,7 +22,7 @@ def HadCascadeFittingPipeline(HadCascade)->bool:
                     HowMany=2,
                     Log10Energy=Particle.Log10Energy - Log10(2),
                     SlantDepth=Event.LeadingInteractions[Particle.LeadingInteractionId].SlantDepth,
-                    to=EventContent,
+                    To=EventContent,
                 )
             else:
                 pass
@@ -30,9 +30,9 @@ def HadCascadeFittingPipeline(HadCascade)->bool:
             Fragment=Event.Fragment,
             Log10Energy=Event.Shower_Log10Energy,
             NumPhotons=NumPhotons,
-            to=EventContent,
+            To=EventContent,
         )
-        AddEventContent(EventContent=EventContent, to=PhotonsDistribution)
+        AddEventContent(EventContent=EventContent, To=PhotonsDistribution)
     
     # see Subsection IV A
     LinRegFit = FitLinearRegression(
@@ -101,9 +101,9 @@ def ElmCascadeFittingPipeline(ElmCascade)->bool:
             Fragment=Event.Fragment,
             Log10Energy=Event.Shower_Log10Energy,
             SlantDepthProfile=Event.SlantDepth,
-            to=EventContent,
+            To=EventContent,
         )
-        AddEventContent(EventContent=EventContent, to=MuonDataset)
+        AddEventContent(EventContent=EventContent, To=MuonDataset)
 
     # see Subsection IV B
     LinRegFit = FitLinearRegression(
