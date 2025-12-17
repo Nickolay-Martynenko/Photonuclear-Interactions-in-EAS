@@ -149,7 +149,7 @@ def ElmCascadeFittingPipeline(ElmCascade)->bool:
               FeaturePoly=("x1", "x2", "x1.x2", "x2^2", "x1.x2^2"),
           },
         ],
-        FilterKey="Fragment", FilterInclude="train",
+        FilterKey="Fragment", FilterInclude="train", FilterOutliers=True
     )
     
     SaveParameters(From=LinRegFit, To="ElmCascadeOutput.dat")
