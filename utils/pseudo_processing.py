@@ -105,7 +105,7 @@ def ElmCascadeFittingPipeline(ElmCascade)->bool:
         )
         AddEventContent(EventContent=EventContent, to=MuonDataset)
 
-    # see Subsection IV A
+    # see Subsection IV B
     LinRegFit = FitLinearRegression(
         Dataset=MuonDataset,
         Tasks=[
