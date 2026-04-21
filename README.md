@@ -9,7 +9,7 @@
 ## About This Repository
 
 This repository provides datasets corresponding to the findings presented in the paper:  
-[**arXiv:2512.12481**](https://arxiv.org/abs/2512.12481) (submitted to *Phys. Rev. D*).
+[**Phys. Rev. D 113, 083026 / arXiv:2512.12481**](https://arxiv.org/abs/2512.12481).
 
 ## Dataset Structure
 
@@ -98,15 +98,19 @@ The code and datasets in this repository are released under the MIT License. See
 
 If you use this dataset or any other result of this study in your research, please cite the original paper:
 
-    @article{Martynenko:2025zxj,
-        author = "Martynenko, Nickolay S.",
-        title = "{Readdressing the contribution of photonuclear reactions to the muon content of extensive air showers: a heuristic approach}",
-        eprint = "2512.12481",
-        archivePrefix = "arXiv",
-        primaryClass = "astro-ph.HE",
-        reportNumber = "INR-TH-2025-022",
-        month = "12",
-        year = "2025"
+    @article{15qg-8qk5,
+    title = {Readdressing the contribution of photonuclear reactions to the muon content of extensive air showers: A heuristic approach},
+    author = {Martynenko, Nickolay S.},
+    journal = {Phys. Rev. D},
+    volume = {113},
+    issue = {8},
+    pages = {083026},
+    numpages = {18},
+    year = {2026},
+    month = {Apr},
+    publisher = {American Physical Society},
+    doi = {10.1103/15qg-8qk5},
+    url = {https://link.aps.org/doi/10.1103/15qg-8qk5}
     }
 
 
